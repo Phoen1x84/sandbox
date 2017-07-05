@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Project", "Project", "{C8003893-5020-4919-9F30-EC2C515A27CC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Feature", "Feature", "{8A5FE741-E87E-445A-9310-2ACA9E7CD64C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Foundation", "Foundation", "{973C2D20-98E2-4779-AFC0-4E8B1B13367F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Sandbox", "Sandbox", "{0DA93CA1-2010-41A0-B084-948CDDA5B639}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "sandbox.website", "src\Project\sandbox\sandbox.website\sandbox.website.csproj", "{5FAE2E21-B705-469E-B617-2CF4DF998707}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "HeroBanner", "HeroBanner", "{01004942-7A57-4A15-930D-70FA9B434C2A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Feature.HeroBanner", "src\Feature\HeroBanner\Feature.HeroBanner\Feature.HeroBanner.csproj", "{1C0D5CD7-7B61-4352-9D0B-6DAB53755370}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5FAE2E21-B705-469E-B617-2CF4DF998707}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5FAE2E21-B705-469E-B617-2CF4DF998707}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5FAE2E21-B705-469E-B617-2CF4DF998707}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5FAE2E21-B705-469E-B617-2CF4DF998707}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C0D5CD7-7B61-4352-9D0B-6DAB53755370}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C0D5CD7-7B61-4352-9D0B-6DAB53755370}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C0D5CD7-7B61-4352-9D0B-6DAB53755370}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C0D5CD7-7B61-4352-9D0B-6DAB53755370}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0DA93CA1-2010-41A0-B084-948CDDA5B639} = {C8003893-5020-4919-9F30-EC2C515A27CC}
+		{5FAE2E21-B705-469E-B617-2CF4DF998707} = {0DA93CA1-2010-41A0-B084-948CDDA5B639}
+		{01004942-7A57-4A15-930D-70FA9B434C2A} = {8A5FE741-E87E-445A-9310-2ACA9E7CD64C}
+		{1C0D5CD7-7B61-4352-9D0B-6DAB53755370} = {01004942-7A57-4A15-930D-70FA9B434C2A}
+	EndGlobalSection
+EndGlobal
